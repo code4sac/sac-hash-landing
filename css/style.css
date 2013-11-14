@@ -19,46 +19,25 @@ body {margin: 0; text-align: center;}
 	float: left;
 }
 
-.steps img {width: 90%; margin: 0 5%;}
-
-
-
-.field {
-	font-size: 1.3em; 
-	height: 2em; 
-	text-align: center; 
-	margin-bottom: .5em; 
-	font-family: 'Source Sans Pro', 'helvetica', sans-serif;
-	border: 2px solid white;
-  background: transparent;
-  color: white;
-  width: 80%;
-  max-width: 250px;
+.steps p {
+  width: 85%;
+  margin: auto;
+}
+.steps img {
+  width: 90%; 
+  margin: 0 5%;
 }
 
-
-.button {
-  width: 6em;
-  height: 2em;
-  background:transparent;
-  cursor: pointer;
-  font-family: 'Source Sans Pro', 'helvetica', sans-serif;
-  font-size: 1.3em;
-  color: white;
-  border: 2px solid white;
-  margin: 0px;
-  padding: 0px;
-} 
 
 
 
 
 /* MEAT */
 
-#footer .partner {width: 250px;}
+#footer .partner {width: 250px; margin-bottom:1.5em;}
 
 .logo {width: 90%; max-width: 400px;}
-.img {width: 90%; max-width: 650px;}
+.img {width: 90%; max-width: 750px;}
 p {width: 90%; max-width: 700px; margin:auto;}
 
 
@@ -76,7 +55,7 @@ p {font-size: 1em; font-weight: 400; line-height: 1.5em; ;letter-spacing: 0em;}
 #t-feed p {color:black;}
 
 #t-feed a {text-decoration: none; color:blue;}
-#t-feed a:hover {border-bottom: solid 1.5px blue;}
+#t-feed a:hover {border-bottom: solid 2px blue;}
 
 a {text-decoration: none; color:white;}
 
@@ -152,6 +131,40 @@ input.tags {
    width: 100%;
    padding: 6px;
 }
+
+.field {
+  font-size: 1.3em; 
+  height: 2em; 
+  text-align: center; 
+  margin-bottom: .5em; 
+  font-family: 'Source Sans Pro', 'helvetica', sans-serif;
+  border: 2px solid white;
+  background: transparent;
+  color: white;
+  width: 80%;
+  max-width: 350px;
+}
+
+
+.button {
+  width: 6em;
+  height: 2em;
+  background:transparent;
+  cursor: pointer;
+  font-family: 'Source Sans Pro', 'helvetica', sans-serif;
+  font-size: 1.3em;
+  color: white;
+  border: 2px solid white;
+  margin: 0px;
+  padding: 0px;
+} 
+
+
+/* all */
+::-webkit-input-placeholder { color:white; }
+::-moz-placeholder { color:white; } /* firefox 19+ */
+:-ms-input-placeholder { color:white; } /* ie */
+input:-moz-placeholder { color:white; }
 
 
 
