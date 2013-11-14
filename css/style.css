@@ -2,7 +2,6 @@
 body {margin: 0; text-align: center;}
 
 
-
 /* BONES */
 #header,#intro,#usage,#submit,#t-feed,#footer,#product {
 	width: 100%;
@@ -27,9 +26,6 @@ body {margin: 0; text-align: center;}
   width: 90%; 
   margin: 0 5%;
 }
-
-
-
 
 
 /* MEAT */
@@ -142,7 +138,7 @@ input.tags {
   background: transparent;
   color: white;
   width: 80%;
-  max-width: 350px;
+  max-width: 600px;
 }
 
 
