@@ -2,9 +2,6 @@ html, body {
   padding: 0;
   margin: 0;
   text-align: center;
-}
-
-h1,h3,h4,p {
   font-family: 'Source Sans Pro', 'helvetica', sans-serif;
 }
 
@@ -160,66 +157,76 @@ html[xmlns] .clearfix {
    width: 50%;
    margin: 0 auto;
 }
+.tag-container {
+   padding-bottom: 10px;
+}
 .tag {
-  padding: 4px 6px;
-  margin: 0 3px 3px 10px;
+  padding: 9px 12px 8px 8px;
+  margin: 0 3px 3px 4px;
   border-radius: 3px;
-  background-color: #ccc;
+  background-color: #ff8553;
   display: inline-block;
+  font-size: 18px;
 }
 .submit {
     
 }
 .disabled {
     pointer-events: none;
-    opacity: .3;
+    opacity: .2;
 }
 .close {
-    padding: 0px 4px;
+    position: relative;
+    top: -1px;
+    padding: 2px 3px;
     text-align: center;
-    margin-right: 4px;
+    margin-right: 6px;
     display: inline-block;
-    color: #fff;
-    background-color: #bbb;
+    color: rgba(0,0,0,.13);
+    font-size: 12px;
+    border-radius: 2px;
+    border: 2px solid rgba(0,0,0,.13);
+}
+.close:hover {
+  cursor: pointer;
 }
 input.tags {
    width: 100%;
-   padding: 6px;
+   padding: 10px;
 }
 
+.button, .field {
+  font-size: 1.2em; 
+  border: 2px solid white;
+  border-radius: 2px;
+  background:transparent;
+  color: white;
+   padding: 8px;
+}
 .field {
-  font-size: 1.3em; 
-  height: 2em; 
   text-align: center; 
   margin-bottom: .5em; 
-  font-family: 'Source Sans Pro', 'helvetica', sans-serif;
-  border: 2px solid white;
-  background: transparent;
-  color: white;
   width: 80%;
   max-width: 600px;
+  font-size: 1em;
+ 
 }
-
-
+.field:focus {
+  outline: 0;
+}
 .button {
   width: 6em;
-  height: 2em;
-  background:transparent;
-  cursor: pointer;
-  font-family: 'Source Sans Pro', 'helvetica', sans-serif;
-  font-size: 1.3em;
   color: white;
-  border: 2px solid white;
   margin: 0px;
-  padding: 0px;
+  padding: 6px;
 } 
 
 
 /* all */
-::-webkit-input-placeholder { color:white; }
-::-moz-placeholder { color:white; } /* firefox 19+ */
-:-ms-input-placeholder { color:white; } /* ie */
-input:-moz-placeholder { color:white; }
+::-webkit-input-placeholder { color:rgba(255,255,255,.8); }
+::-moz-placeholder { color:rgba(255,255,255,.8); } /* firefox 19+ */
+:-ms-input-placeholder { color:rgba(255,255,255,.8); } /* ie */
+input:-moz-placeholder { color:rgba(255,255,255,.8); }
 
 
 

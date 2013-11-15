@@ -10,7 +10,7 @@ $(document).ready(function(){
         if (val.charAt(0) != '#') {
             val = '#' + val;
         }
-        tag = $('<span class="tag"><span class="close">x</span>' + val + '</span>');
+        tag = $('<span class="tag"><span class="close"><i class="fa fa-times"></i></span>' + val + '</span>');
         $('.tag-container').append(tag);
         tag.animate({
             'margin-left': 0
