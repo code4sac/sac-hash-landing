@@ -97,7 +97,7 @@ a {text-decoration: none; color:white;}
 .banner {
   position: relative;
   overflow: auto;
-  /*height:500px;*/
+  width: inherit !important;
 }
 
 .banner li {
