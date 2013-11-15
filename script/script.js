@@ -27,6 +27,14 @@ $(document).ready(function(){
 });
 
 
+$(function() {
+    $('.banner').unslider({
+        speed: 800,
+        delay: 3000,
+        keys: true
+    });
+});
+
 
 $(document).on('click', '.close', function () {
     $(this).closest('.tag').remove();

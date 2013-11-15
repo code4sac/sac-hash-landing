@@ -5,11 +5,16 @@
 		<meta name="keywords" content="Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum, Lorem ipsum">
 		<title>Sacramento Hashtag Project</title>
 		<meta charset="UTF-8">
+		<!-- mobile meta (hooray!) -->
+		<meta name="HandheldFriendly" content="True">
+		<meta name="MobileOptimized" content="320">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-		<!--<link rel="stylesheet" type="text/css" href="css/reset.css">-->
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script language="javascript" type="text/javascript" src="script/unslider.min.js"></script>
 		<script language="javascript" type="text/javascript" src="script/script.js"></script>
 		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,600italic' rel='stylesheet' type='text/css'>
 
@@ -19,14 +24,22 @@
 	<body>
 		<header>
 			<div id="header" class="clearfix"> <!--Header Chunk-->
-				<div class="wrapper">
-					<img src="images/sachashtagproj.svg" alt="Sacramento Hashtag Project Logo" class="logo"><br><br>
+				<div class="logo-wrapper">
+					<img src="images/sachashtagproj.svg" alt="Sacramento Hashtag Project Logo" class="logo">
 					<p><i class="fa fa-chevron-down fa-2x"></i></p>
+				</div>
+				<div class="banner">
+					<ul>
+						<li><img src="images/placeholder_skyline.jpeg"></li>
+						<li><img src="images/placeholder_skyline2.jpeg"></li>
+						<li><img src="images/placeholder_skyline3.jpeg"></li>
+						<li><img src="images/placeholder_skyline4.jpeg"></li>
+					</ul>
 				</div>
 			</div>
 		</header>
 
-		<section id="intro" class="clearfix"> <!--Introduction-->
+		<section id="intro"> <!--Introduction-->
 			<div class="wrapper">
 				<h1>Making Connections</h1>
 				
@@ -34,7 +47,7 @@
 			</div>
 		</section>
 
-		<seciton id="product" class="clearfix"> <!--Product Visuals-->
+		<section id="product" class="clearfix"> <!--Product Visuals-->
 			<div class="wrapper">
 				<h1>See it in Action</h1>
 				
