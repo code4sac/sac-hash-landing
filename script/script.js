@@ -20,20 +20,13 @@ $(document).ready(function(){
             $('.submit').removeClass('disabled');
         self.attr('placeholder', 'Suggest another tag, or press submit when you\'re done').val('').focus();
     }
-}).on('keydown', function (e) {
-    if (e.keyCode == 13) {
-        e.preventDefault();
-    }
-});
-
-
-$(function() {
-    $('.banner').unslider({
-        speed: 800,
-        delay: 3000,
-        keys: true
+    }).on('keydown', function (e) {
+        if (e.keyCode == 13) {
+            e.preventDefault();
+        }
     });
-});
+
+
 
 
 $(document).on('click', '.close', function () {

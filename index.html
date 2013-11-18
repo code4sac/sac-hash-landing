@@ -14,7 +14,7 @@
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" href="css/font-awesome.min.css">
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-		<script language="javascript" type="text/javascript" src="script/unslider.min.js"></script>
+		<script language="javascript" type="text/javascript" src="script/bootstrap.carousel.js"></script>
 		<script language="javascript" type="text/javascript" src="script/script.js"></script>
 		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,400italic,600italic' rel='stylesheet' type='text/css'>
 
@@ -28,14 +28,15 @@
 					<img src="images/sachashtagproj.svg" alt="Sacramento Hashtag Project Logo" class="logo">
 					<p><i class="fa fa-chevron-down fa-2x"></i></p>
 				</div>
-				<div class="banner">
-					<ul>
-						<li><img src="images/placeholder_skyline.jpeg"></li>
-						<li><img src="images/placeholder_skyline2.jpeg"></li>
-						<li><img src="images/placeholder_skyline3.jpeg"></li>
-						<li><img src="images/placeholder_skyline4.jpeg"></li>
-					</ul>
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="item active"><img src="images/placeholder_skyline.jpeg" alt=""></div>
+						<div class="item"><img src="images/placeholder_skyline2.jpeg" alt=""></div>
+						<div class="item"><img src="images/placeholder_skyline3.jpeg" alt=""></div>
+						<div class="item"><img src="images/placeholder_skyline4.jpeg" alt=""></div>
+					</div>
 				</div>
+				
 			</div>
 		</header>
 
@@ -124,4 +125,7 @@
 			</div>
 		</footer>
 	</body>
+	<script>
+	$('.carousel').carousel();
+	</script>
 </html>
