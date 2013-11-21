@@ -10,7 +10,7 @@ $(document).ready(function(){
         if (val.charAt(0) != '#') {
             val = '#' + val;
         }
-        tag = $('<span class="tag"><span class="close">x</span>' + val + '</span>');
+        tag = $('<span class="tag"><span class="close"><i class="fa fa-times"></i></span>' + val + '</span>');
         $('.tag-container').append(tag);
         tag.animate({
             'margin-left': 0
@@ -20,11 +20,12 @@ $(document).ready(function(){
             $('.submit').removeClass('disabled');
         self.attr('placeholder', 'Suggest another tag, or press submit when you\'re done').val('').focus();
     }
-}).on('keydown', function (e) {
-    if (e.keyCode == 13) {
-        e.preventDefault();
-    }
-});
+    }).on('keydown', function (e) {
+        if (e.keyCode == 13) {
+            e.preventDefault();
+        }
+    });
+
 
 
 
