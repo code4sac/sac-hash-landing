@@ -27,8 +27,6 @@ $(document).ready(function(){
     });
 
 
-
-
 $(document).on('click', '.close', function () {
     $(this).closest('.tag').remove();
     if ($('.tag').length == 0) {
@@ -36,4 +34,23 @@ $(document).on('click', '.close', function () {
         $('.tags').attr('placeholder', 'Suggest a hashtag, ex. #midtownsac')
     }
 });  
+
+  /* Functions for hashtag suggestions
+   * ================================= */
+
+  $('#suggest-submit').on('click', function() {
+    var hashtag = $('#suggest-field').val();
+    jQuery.ajax({
+      url: 'suggest.php',
+      data: 'hashtag='+hashtag,
+      type: 'POST',
+      async: false,
+      success: function(data, stat, jqXHR) {
+        console.log('Success', data);
+      }
+    });
+  });
+
+
+
 })
