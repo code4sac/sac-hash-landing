@@ -46,7 +46,8 @@ $(document).on('click', '.close', function () {
       type: 'POST',
       async: false,
       success: function(data, stat, jqXHR) {
-        console.log('Success', data);
+        $('#suggest-field').val('');
+        $('#suggest-field').attr('placeholder', 'Thank you for the suggestion!');
       }
     });
   });
