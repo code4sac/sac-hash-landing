@@ -36,9 +36,9 @@ img {
 
 #header,#intro,#product,#usage,#submit,#footer p {color:white;}
 #t-feed p {color:black;}
-
-#t-feed a {text-decoration: none; color:blue;}
-#t-feed a:hover {border-bottom: solid 2px blue;}
+#t-feed a {text-decoration: none; color:rgb(42,178,221);}
+#t-feed a:hover {border-bottom: solid 1px rgb(42,178,221);}
+#t-feed i {color:rgb(42,178,221);}
 
 a {text-decoration: none; color:white;}
 
@@ -157,7 +157,7 @@ html[xmlns] .clearfix {
   padding: 9px 12px 8px 8px;
   margin: 0 3px 3px 4px;
   border-radius: 3px;
-  background-color: #ff8553;
+  background-color: rgb(27,161,207);
   display: inline-block;
   font-size: 18px;
 }
@@ -175,10 +175,10 @@ html[xmlns] .clearfix {
     text-align: center;
     margin-right: 6px;
     display: inline-block;
-    color: rgba(0,0,0,.13);
+    color: rgba(255,255,255,1);
     font-size: 12px;
     border-radius: 2px;
-    border: 2px solid rgba(0,0,0,.13);
+    border: 2px solid rgba(255,255,255,1);
 }
 .close:hover {
   cursor: pointer;
