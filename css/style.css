@@ -80,7 +80,7 @@ a {text-decoration: none; color:white;}
 }
 
 .logo {
-  width:200px;
+  width:265px;
   position: relative;
   margin:0 auto;
 }
@@ -246,7 +246,7 @@ input:-moz-placeholder { color:rgba(255,255,255,.8); }
   max-width: 100%;
   height: auto;
   line-height: 1;
-  min-height: 215px;
+  min-height: 275px;
 }
 .carousel-inner > .active,
 .carousel-inner > .next,
@@ -394,12 +394,9 @@ input:-moz-placeholder { color:rgba(255,255,255,.8); }
   text-shadow: none;
 }
 
-@media screen and (min-width: 590px) {
+@media screen and (min-width: 800px) {
   .logo {
     width:33%;
-  } 
-  .steps {
-    width:31%;
   }
 }
 
@@ -422,6 +419,9 @@ input:-moz-placeholder { color:rgba(255,255,255,.8); }
     font-size:1.5em;
     left:0;
     display: inline;
+  }
+  .steps {
+    width:31%;
   }
 }
 
