@@ -5,10 +5,16 @@ html, body {
   font-family: 'Source Sans Pro', 'helvetica', sans-serif;
 }
 
+* { box-sizing: border-box;}
+
 h1 { 
-  font-size: 2.4em;
-  font-weight: 600;
+  font-size: 1.5em;
+  font-weight: 900;
   margin-bottom: 1em;
+  color: rgba(255,255,255,.9);
+  text-shadow: 1px 1px 0px rgba(0,0,0,.13);
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
@@ -22,12 +28,14 @@ h4 {
 }
 
 p {
-  font-size: 1em;
-  font-weight: 400;
+  font-size: 1.18em;
+  font-weight: 100;
   line-height: 1.5em;
   letter-spacing: 0em;
   margin:0 auto 1em auto;
   max-width: 60%;
+  text-shadow: 1px 1px 0px rgba(0,0,0,.13);
+  
 }
 
 img {
@@ -46,7 +54,8 @@ a {text-decoration: none; color:white;}
 #footer a:hover {color:gray;}
 
 
-#header {background-color: rgb(241,203,126);}
+#header {background-color: rgb(120, 216, 155); position: relative; z-index: 1;}
+#header .item { opacity: .9; -webkit-filter: brightness(1) grayscale(0.3);}
 #intro {background-color: rgb(168,212,130);}
 #product {background-color: rgb(255,255,255); color:rgb(42,178,221);}
 #usage {background-color: rgb(42,178,221);}
@@ -56,7 +65,8 @@ a {text-decoration: none; color:white;}
 #partners {background-color: rgb(168,212,130);}
 #footer {background-color: rgb(35,33,44); color:white;}
 
-
+.color1 { background-color: #68c39f !important; }
+.color2 { background-color: #449bb5 !important; }
 
 /* BONES */
 #header,#intro,#usage,#submit,#t-feed,#footer,#product {
@@ -67,6 +77,38 @@ a {text-decoration: none; color:white;}
 	padding: 4em 0;
 }
 
+#usage h3 {
+  border-radius: 50%;
+  width: 75px;
+  height: 75px;
+  border: 5px solid rgba(255,255,255,.06);
+  text-align: center;
+  padding-top: 19px;
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
+#usage p {
+  padding-top: 15px;
+}
+#usage .steps {
+  text-align: center;
+}
+#usage hr {
+  border: 3px dashed rgba(0,0,0,.1);
+  position: relative;
+  top: 70px;
+  width: 50%;
+  z-index: 0;
+}
+#usage img {
+  position: relative;
+  z-index: 1;
+}
+#usage .steps:nth-child(2){
+  position: relative;
+  top: -30px;
+}
+
 
 /* HEADER */
 
@@ -74,12 +116,13 @@ a {text-decoration: none; color:white;}
 
 .logo-wrapper{
   position: absolute;
+  top: 0px;
   width:100%;
   z-index:2;
 }
 
 .logo {
-  width:33%;
+  width:26%;
   position: relative;
   margin:0 auto;
 }
@@ -87,6 +130,7 @@ a {text-decoration: none; color:white;}
 .logo-wrapper i {
   margin-top:-15px;
   font-size:1em;
+  display: none;
 }
 
 .steps {
