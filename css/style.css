@@ -76,10 +76,11 @@ a {text-decoration: none; color:white;}
   position: absolute;
   width:100%;
   z-index:2;
+  min-height: 300px;
 }
 
 .logo {
-  width:33%;
+  width:200px;
   position: relative;
   margin:0 auto;
 }
@@ -90,7 +91,7 @@ a {text-decoration: none; color:white;}
 }
 
 .steps {
-	width: 31%;
+	width: 100%;
 	float: left;
   margin: 0 1%;
 }
@@ -245,6 +246,7 @@ input:-moz-placeholder { color:rgba(255,255,255,.8); }
   max-width: 100%;
   height: auto;
   line-height: 1;
+  min-height: 215px;
 }
 .carousel-inner > .active,
 .carousel-inner > .next,
@@ -386,16 +388,18 @@ input:-moz-placeholder { color:rgba(255,255,255,.8); }
   color: #ffffff;
   text-align: left;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  display:none;
 }
 .carousel-caption .btn {
   text-shadow: none;
 }
 
-@media screen and (min-width:500px) {
-  .carousel-caption {
-    font-size:1.5em;
-    left:0;
-    bottom: 5%;
+@media screen and (min-width: 590px) {
+  .logo {
+    width:33%;
+  } 
+  .steps {
+    width:31%;
   }
 }
 
@@ -412,6 +416,12 @@ input:-moz-placeholder { color:rgba(255,255,255,.8); }
   }
   .carousel-indicators {
     bottom: 20px;
+  }
+
+  .carousel-caption {
+    font-size:1.5em;
+    left:0;
+    display: inline;
   }
 }
 
