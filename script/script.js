@@ -39,10 +39,16 @@ $(document).on('click', '.close', function () {
    * ================================= */
 
   $('#suggest-submit').on('click', function() {
-    var hashtag = $('#suggest-field').val();
+    var tags = [];
+    var form_field = $('#suggest-field').val();
+    tags.push({'hashtag': form_field});
+    $('.tag').each(function(index, obj) {
+      tags.push({'hashtag': $(obj).text()});
+    });
     jQuery.ajax({
       url: 'suggest.php',
-      data: 'hashtag='+hashtag,
+      //data: 'hashtag='+hashtag,
+      data: 'tags='+JSON.stringify(tags),
       type: 'POST',
       async: false,
       success: function(data, stat, jqXHR) {
