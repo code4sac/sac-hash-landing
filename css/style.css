@@ -33,7 +33,7 @@ p {
   line-height: 1.5em;
   letter-spacing: 0em;
   margin:0 auto 1em auto;
-  max-width: 60%;
+  max-width: 85%;
   text-shadow: 1px 1px 0px rgba(0,0,0,.13);
   
 }
@@ -123,7 +123,7 @@ a {text-decoration: none; color:white;}
 }
 
 .logo {
-  width:26%;
+  width:265;
   position: relative;
   margin:0 auto;
 }
@@ -466,6 +466,9 @@ input:-moz-placeholder { color:rgba(255,255,255,.8); }
   }
   .steps {
     width:31%;
+  }
+  p {
+    max-width: 60%;
   }
 }
 
