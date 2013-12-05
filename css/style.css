@@ -543,9 +543,7 @@ input:-moz-placeholder { color:rgba(255,255,255,.8); }
   p {
     max-width: 60%;
   }
-/*  #launchparty .left, #launchparty .right {
-    width:100%;
-  }*/
+}
 
 @media screen and (min-width: 1040px) {
   .carousel-caption {
@@ -567,6 +565,21 @@ input:-moz-placeholder { color:rgba(255,255,255,.8); }
     font-size:2em;
   }
 
+}
+
+@media screen and (max-width: 768px) {
+  #launchparty .left, #launchparty .right {
+    width:100%;
+    float:none;
+  }
+  #launchparty .right {
+    width:80%;
+    float:none;
+    margin:0 auto;
+  }
+  #launchparty p {
+    margin:0;
+  }
 }
 /* COLORS
 
