@@ -32,6 +32,10 @@ p {
   line-height: 1.5em;
   letter-spacing: 0em;
   margin:0 auto 1em auto;
+<<<<<<< HEAD
+=======
+  max-width: 85%;
+>>>>>>> 04bb76f7a5933a4d7c27606588c822bba70f2ec4
   text-shadow: 1px 1px 0px rgba(0,0,0,.13);
   max-width: 90%;
   
@@ -41,13 +45,17 @@ img {
   max-width: 100%;
 }
 
+address {
+  margin-bottom:1em;
+}
+
 #header,#intro,#product,#usage,#submit,#footer p {color:white;}
 #t-feed p {color:black;}
 #t-feed a {text-decoration: none; color:rgb(42,178,221);}
 #t-feed a:hover {border-bottom: solid 1px rgb(42,178,221);}
 #t-feed i {color:rgb(42,178,221);}
 
-a {text-decoration: none; color:white;}
+a {text-decoration: underline; color:white;}
 
 
 #footer a { margin: 0 .3em;}
@@ -124,7 +132,7 @@ a {text-decoration: none; color:white;}
 }
 
 .logo {
-  width:26%;
+  width:265;
   position: relative;
   margin:0 auto;
 }
@@ -156,9 +164,12 @@ a {text-decoration: none; color:white;}
   margin-bottom: 1em;
 }
 
+<<<<<<< HEAD
 .steps img {
   max-width: 92%;
 }
+=======
+>>>>>>> 04bb76f7a5933a4d7c27606588c822bba70f2ec4
 
 /* MEAT */
 
@@ -475,8 +486,14 @@ input:-moz-placeholder { color:rgba(255,255,255,.8); }
   .steps {
     width:31%;
   }
+<<<<<<< HEAD
 
   p {max-width: 80%;}
+=======
+  p {
+    max-width: 60%;
+  }
+>>>>>>> 04bb76f7a5933a4d7c27606588c822bba70f2ec4
 }
 
 @media screen and (min-width: 1040px) {
