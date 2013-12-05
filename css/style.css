@@ -32,10 +32,7 @@ p {
   line-height: 1.5em;
   letter-spacing: 0em;
   margin:0 auto 1em auto;
-<<<<<<< HEAD
-=======
   max-width: 85%;
->>>>>>> 04bb76f7a5933a4d7c27606588c822bba70f2ec4
   text-shadow: 1px 1px 0px rgba(0,0,0,.13);
   max-width: 90%;
   
@@ -68,7 +65,63 @@ a {text-decoration: underline; color:white;}
 #product {background-color: rgb(255,255,255); color:rgb(42,178,221);}
 #usage {background-color: rgb(42,178,221);}
 #submit {background-color: rgb(42,178,221); color:white;}
-#launchparty {background-color: rgb(168,212,130); color:white;}
+#launchparty {
+  background-color: rgb(168,212,130);
+  color:white;
+}
+#launchparty p {
+  color:#444;
+  text-align: left;
+  max-width: 100%;
+  margin-right:20%;
+}
+#launchparty p.center {
+  text-align: center;
+  margin:0;
+}
+#launchparty a {
+  color:#444;
+}
+#launchparty address {
+  color:#444;
+}
+#launchparty .left {
+  width:48%;
+  float:left;
+}
+#launchparty .right {
+  width:48%;
+  float:right;
+}
+#launchparty ul {
+  margin-left:30px;
+  margin-bottom:10px;
+  text-align: left;
+  list-style: circle;
+  color:#444;
+  font-size:1.5em;
+}
+#launchparty ul li {
+  margin-bottom: 10px;
+}
+#launchparty .big {
+  font-size:2em;
+}
+#mc_embed_signup {
+  margin:2em 0 0 0;
+}
+#mc_embed_signup h2 {
+  font-size:2em;
+}
+#mc_embed_signup .indicates-required {
+  margin-bottom: 2em;
+}
+#mc_embed_signup label {
+  display: block;
+}
+#mc_embed_signup .mc-field-group {
+  margin-bottom:0.5em;
+}
 #t-feed {background-color: rgb(255,255,255);}
 #partners {background-color: rgb(168,212,130);}
 #footer {background-color: rgb(35,33,44); color:white;}
@@ -164,12 +217,10 @@ a {text-decoration: underline; color:white;}
   margin-bottom: 1em;
 }
 
-<<<<<<< HEAD
 .steps img {
   max-width: 92%;
 }
-=======
->>>>>>> 04bb76f7a5933a4d7c27606588c822bba70f2ec4
+
 
 /* MEAT */
 
@@ -486,15 +537,15 @@ input:-moz-placeholder { color:rgba(255,255,255,.8); }
   .steps {
     width:31%;
   }
-<<<<<<< HEAD
 
   p {max-width: 80%;}
-=======
+
   p {
     max-width: 60%;
   }
->>>>>>> 04bb76f7a5933a4d7c27606588c822bba70f2ec4
-}
+/*  #launchparty .left, #launchparty .right {
+    width:100%;
+  }*/
 
 @media screen and (min-width: 1040px) {
   .carousel-caption {
